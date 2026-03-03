@@ -1,2 +1,0 @@
-[console_scripts]
-nfe-reader = nfe_reader.cli:main
