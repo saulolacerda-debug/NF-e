@@ -1,3 +1,12 @@
+Metadata-Version: 2.4
+Name: nfe-reader
+Version: 1.0.0
+Summary: Leitor de NF-e (Nota Fiscal Eletrônica) com exportação para XLSX/CSV
+License: MIT
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+Requires-Dist: openpyxl>=3.1.0
+
 # NF-e Reader
 
 Leitor de **NF-e (Nota Fiscal Eletrônica)** com exportação para **XLSX** e **CSV**, escrito em Python.

@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "nfe-reader"
+version = "1.0.0"
+description = "Leitor de NF-e (Nota Fiscal Eletrônica) com exportação para XLSX/CSV"
+readme = "README.md"
+requires-python = ">=3.9"
+license = {text = "MIT"}
+dependencies = [
+    "openpyxl>=3.1.0",
+]
+
+[project.scripts]
+nfe-reader = "nfe_reader.cli:main"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
